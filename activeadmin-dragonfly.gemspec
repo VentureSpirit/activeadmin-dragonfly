@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["Rakefile", "README.md"]
 
-  s.add_runtime_dependency "activeadmin", "> 0.99"
+  s.add_runtime_dependency "activeadmin"
   s.add_runtime_dependency "dragonfly", "~> 1.0"
 end
